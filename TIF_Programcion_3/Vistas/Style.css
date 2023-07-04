@@ -1,0 +1,185 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #FF7658;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FormMenuAdmin {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-left: 860px;
+    margin-top: 360px;
+    padding:20px;
+}
+.Inicio {
+    justify-content: center;
+    align-items: center;
+}
+.FormAgregarFamilia {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-left: 745px;
+    margin-top: 300px;
+    padding: 20px;
+}
+.FormObsGenerales {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-left: 575px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.FormAltaPaciente {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-left: 575px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.FormTratamiento {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-left: 745px;
+    margin-top: 150px;
+    padding: 20px;
+}
+.GridBajaYModificacion {
+    
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;  
+    margin-top: 50px;
+    padding: 20px;
+}
+.GridObsPaciente {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#BtnIrAIniciarSesion {
+    width: 440px;
+    background-color: #C92B09;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.BarraHerramientas {
+    background-color: #FD512C;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+
+#BtnIrAIniciarSesion:hover {
+    background-color: crimson;
+}
+
+#btnCrearCuenta:hover {
+    background-color: crimson;
+}
+#BtnIniciarSesion {
+  color: #C92B09;
+}
+
+#CbxUsuario {
+    color: #C92B09;
+}
+#CbxAdministrador {
+    color: #C92B09;
+}
+
+/* navegacion usuario Paciente */
+.navbar-paciente {
+    
+
+
+    background-color: #FD512C;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-paciente-panelIzquerdoMin {
+    width: 20%;
+    height: 60px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.navbar-paciente-panelCentralTabla {
+    background-color: #FD512C;
+    width: 79%;
+    height: 60px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.navbar-paciente-panelIzquerdoMax {
+    width: 20%;
+    height: 360px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.navbar-paciente-panelCentralDatos {
+    width: 79%;
+    height: 360px;
+    float: left;
+    border: 1px solid black;
+    /*Centra el GridView en el div*/
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.GridViewDatosPacienteID{
+    text-align:center;
+}
+
+.DatosPacienteID {
+    background-color: #FD512C;
+    border: 2px solid black;
+    
+   
+  
+}
+.FormReportes {
+    display: inline-block;
+    background-color: #FD512C;
+    border: 2px solid black;
+    margin-top: 50px;
+    padding: 20px;
+}
